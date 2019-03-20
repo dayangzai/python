@@ -6,6 +6,7 @@ from multiprocessing import Pool
 import requests
 import re
 
+
 def xiaoshuo_url(url):
     s = requests.session()
     content = s.get(url).text
